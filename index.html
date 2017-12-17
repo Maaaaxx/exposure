@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+<body>
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>懒加载</title>
+    <style>
+        .img-row {
+            display: flex;
+            justify-content: center;
+        }
+
+        .img-wrapper {
+            margin: 20px;
+            width: 320px;
+            height: 240px;
+        }
+
+        .img-wrapper>img {
+            width: 100%;
+            vertical-align: top;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="img-row">
+        <div class="img-wrapper">
+            <img class = "load" src="http://fakeimg.pl/300x240/?text=loading" data-src="http://cdn.jirengu.com/book.jirengu.com/img/1.jpg">
+        </div>
+        <div class="img-wrapper">
+            <img class = "load" src="http://fakeimg.pl/300x240/?text=loading" data-src="http://cdn.jirengu.com/book.jirengu.com/img/2.jpg">
+        </div>
+    </div>
+    <div class="img-row">
+        <div class="img-wrapper">
+            <img class = "load" src="http://fakeimg.pl/300x240/?text=loading" data-src="http://cdn.jirengu.com/book.jirengu.com/img/3.jpg">
+        </div>
+        <div class="img-wrapper">
+            <img class = "load" src="http://fakeimg.pl/300x240/?text=loading" data-src="http://cdn.jirengu.com/book.jirengu.com/img/4.jpg">
+        </div>
+    </div>
+    <div class="img-row">
+        <div class="img-wrapper">
+            <img class = "load" src="http://fakeimg.pl/300x240/?text=loading" data-src="http://cdn.jirengu.com/book.jirengu.com/img/5.jpg">
+        </div>
+        <div class="img-wrapper">
+            <img class = "load" src="http://fakeimg.pl/300x240/?text=loading" data-src="http://cdn.jirengu.com/book.jirengu.com/img/6.jpg">
+        </div>
+    </div>
+    <div class="img-row">
+        <div class="img-wrapper">
+            <img class = "load" src="http://fakeimg.pl/300x240/?text=loading" data-src="http://cdn.jirengu.com/book.jirengu.com/img/7.jpg">
+        </div>
+        <div class="img-wrapper">
+            <img class = "load" src="http://fakeimg.pl/300x240/?text=loading" data-src="http://cdn.jirengu.com/book.jirengu.com/img/8.jpg">
+        </div>
+    </div>
+    <div class="img-row">
+        <div class="img-wrapper">
+            <img class = "load" src="http://fakeimg.pl/300x240/?text=loading" data-src="http://cdn.jirengu.com/book.jirengu.com/img/9.jpg">
+        </div>
+        <div class="img-wrapper">
+            <img class = "load" src="http://fakeimg.pl/300x240/?text=loading" data-src="http://cdn.jirengu.com/book.jirengu.com/img/10.jpg">
+        </div>
+    </div>
+    <div class="img-row">
+        <div class="img-wrapper">
+            <img class = "load" src="http://fakeimg.pl/300x240/?text=loading" data-src="http://cdn.jirengu.com/book.jirengu.com/img/11.jpg">
+        </div>
+        <div class="img-wrapper">
+            <img class = "load" src="http://fakeimg.pl/300x240/?text=loading" data-src="http://cdn.jirengu.com/book.jirengu.com/img/12.jpg">
+        </div>
+    </div>
+    <div class="img-row">
+        <div class="img-wrapper">
+            <img class = "load" src="http://fakeimg.pl/300x240/?text=loading" data-src="http://cdn.jirengu.com/book.jirengu.com/img/13.jpg">
+        </div>
+        <div class="img-wrapper">
+            <img class = "load" src="http://fakeimg.pl/300x240/?text=loading" data-src="http://cdn.jirengu.com/book.jirengu.com/img/14.jpg">
+        </div>
+    </div>
+    <div class="img-row">
+        <div class="img-wrapper">
+            <img class = "load" src="http://fakeimg.pl/300x240/?text=loading" data-src="http://cdn.jirengu.com/book.jirengu.com/img/15.jpg">
+        </div>
+        <div class="img-wrapper">
+            <img class = "load" src="http://fakeimg.pl/300x240/?text=loading" data-src="http://cdn.jirengu.com/book.jirengu.com/img/16.jpg">
+        </div>
+    </div>
+    <script src="https://code.jquery.com/jquery-2.1.2.min.js"></script>
+    <script src="lazyLoad.js"></script>
+</body>
+
+</html>
+</body>
+</html>
