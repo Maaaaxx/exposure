@@ -1,3 +1,4 @@
 # exposure
 exposure load image
-**demo** //maaaaxx.github.io/exposure/
+
+**demo** https://maaaaxx.github.io/exposure/
